@@ -1,8 +1,25 @@
 aid: whelp
 name: Whelp
-description: Whelp is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Whelp is an omnichannel customer messaging and support platform that unifies
+  Live Chat, WhatsApp, SMS, Email, Telegram, Facebook Messenger, Instagram, and Viber
+  into a single shared team inbox. It pairs a built-in CRM and unified customer view
+  with a drag-and-drop AI chatbot builder, outbound bulk-messaging campaigns, and
+  reporting and analytics for sales, marketing, and support teams. Whelp is backed
+  by 500 Global. No public developer API or documentation surface was found during
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/whelp/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://web.whelp.co/assets/img/og.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Customer Support
+- Omnichannel
+- Messaging
+- Live Chat
+- WhatsApp
+- CRM
+- Chatbot
+- Customer Communication
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/whelp-domain-security.yml
 - type: Website
   url: https://whelp.co
+- type: StatusPage
+  url: https://status.whelp.co/
+- type: Blog
+  url: https://whelp.co/blog/
+- type: Pricing
+  url: https://whelp.co/pricing
+- type: Integrations
+  url: https://whelp.co/integrations
+- type: About
+  url: https://whelp.co/about
+- type: SignUp
+  url: https://web.whelp.co/signup
+- type: Login
+  url: https://web.whelp.co/
+- type: PrivacyPolicy
+  url: https://whelp.co/privacy-policy
+- type: TermsOfService
+  url: https://whelp.co/terms-of-service
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
