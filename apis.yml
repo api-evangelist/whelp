@@ -42,7 +42,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Omnichannel
 - Messaging
 - Live Chat
@@ -60,6 +60,7 @@ tags_raw:
 - CRM
 - Chatbot
 - Customer Communication
+- Customer-Support
 apis: []
 maintainers:
 - FN: Kin Lane
